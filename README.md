@@ -45,7 +45,7 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b arcadia-next
+    repo init -u https://github.com/nivlafx/platform_manifest.git -b arcadia-next
 
 **Sync repo**
 
@@ -61,6 +61,10 @@ Installing Java 8
      . build/envsetup.sh
      blissify options deviceCodename
      
+## If Building Raven & gapps
+
+     . build/envsetup.sh
+     blissify -g raven
 
 **Options:**
 ```

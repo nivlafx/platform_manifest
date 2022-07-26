@@ -96,7 +96,7 @@
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
 
   <!-- Sepolicy -->
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
+  <project path="device/bliss/sepolicy" name="nivlafx/platform_device_bliss_sepolicy" remote="github" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" />
@@ -120,4 +120,12 @@
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
   <project path="vendor/pixel-framework" name="platform_vendor_pixel-framework" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" remote="BlissRoms" />
+  
+  <!-- Raven -->
+  <project path="device/google/raviole" remote="github" name="nivlafx/device_google_raviole" revision="arcadia-next" />
+  <project path="device/google/raviole-kernel" remote="github" name="pe-raven/device_google_raviole-kernel" revision="twelve-plus" />
+  <project path="device/google/gs101" remote="github" name="pe-raven/device_google_gs101" revision="twelve-plus" />
+  <project path="device/google/gs101-sepolicy" remote="github" name="pe-raven/device_google_gs101-sepolicy" revision="twelve-plus" />
+  <project path="vendor/google/raven" remote="gitlab" name="nivlafx/vendor_google_raven" revision="arcadia-next" />
+  <project path="kernel/google/raviole/raven" remote="github" name="pe-raven/kernel_google_raviole_raven" revision="twelve-plus" />
 </manifest>
